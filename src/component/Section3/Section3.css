@@ -1,0 +1,73 @@
+.section-3 {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 90vw;
+}
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
+
+  padding: 0 20vh;
+}
+.leftSide > h1 {
+  font-size: 32px;
+  font-weight: 1000;
+  line-height: 39px;
+  letter-spacing: 0.0188em;
+  text-align: left;
+  color: rgba(153, 33, 232, 1);
+}
+.leftSide > p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(13, 13, 13, 1);
+  height: 44px;
+  width: 290px;
+  margin-top: 19px;
+  margin-bottom: 14px;
+}
+
+.rightSide {
+  display: flex;
+  width: 50vw;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 4vh;
+}
+
+.group > span {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.group > div > svg:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
