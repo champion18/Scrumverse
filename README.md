@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# Scrumverse
+
+The front-end for a website (based on React JS) of the SCRUM Course Website.
+
+## Installation
+
+Use the node package manager to install the project.
+
+```bash
+npm install
+```
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
